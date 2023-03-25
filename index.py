@@ -16,6 +16,15 @@ bot = Bot(TOKEN)
 def welcome(update, context) -> None:
     update.message.reply_text(f"Hello {update.message.from_user.first_name}, Welcome to SB Movies.\n"
                               f"🔥 Download Your Favourite Movies For 💯 Free And 🍿 Enjoy it.")
+    update.message.reply_text("🤙Join For More Movies and Help👉👉 🇮🇳🇮🇳🇮🇳 Bollywood | Hollywood | South Indian | Hindi Punjabi | TV Shows 🇮🇳🇮🇳🇮🇳
+
+https://t.me/Amazonprime_indian 
+
+Fast Download movies Bot 
+
+https://t.me/Movies_indian_download_bot
+
+https://t.me/Amazonprime_indian")
     update.message.reply_text("👇 Enter Movie Name 👇")
 
 
